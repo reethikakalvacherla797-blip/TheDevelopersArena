@@ -19,6 +19,7 @@ https://www.python.org/downloads/
 Verify installation:
 
 python --version
+
 Step 2: Install Visual Studio Code
 
 Download from:
