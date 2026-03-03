@@ -27,6 +27,22 @@ This project was completed as part of Week 3 – Introduction to Data Analysis.
 
 ---
 
+⚙️ Setup Instructions
+
+1.Install Python (3.x recommended)
+
+2.Install required libraries:
+
+  -pip install pandas notebook
+
+3.Run the Jupyter Notebook:
+
+  -jupyter notebook
+
+4.Open sales_analysis.ipynb and run all cells.
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -38,17 +54,6 @@ sales-data-analysis/
 ├── requirements.txt
 
 ```
-
-## ⚙️ Setup Instructions
-
-1. Install Python (3.x recommended)
-2. Install required libraries:
-
-  pip install pandas 
-
-3. Run the Jupyter Notebook
-
----
 
 ## 🧹 Data Cleaning Steps
 
