@@ -1,0 +1,12 @@
+# Personal Introduction Program
+# This program collects user details and displays a friendly welcome message
+
+# Asking user questions
+name = input("What is your name? ")
+age = input("How old are you? ")
+hobby = input("What is your favorite hobby? ")
+
+# Displaying a friendly welcome message
+print("\n🎉 Welcome", name + "! 🎉")
+print(f"You are {age} years old, and love {hobby}.")
+
