@@ -1,4 +1,4 @@
-# Week-4 Sales Data Analysis Project
+# Week-4 Sales Data Analysis 
 
 ## Project Overview
 This project analyzes a sales dataset to understand product performance, regional sales distribution, and overall sales trends. The goal is to use Python data analysis tools to extract meaningful insights and visualize the results.
