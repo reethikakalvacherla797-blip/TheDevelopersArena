@@ -16,19 +16,23 @@ The project uses Python libraries such as **pandas** for data processing and **m
 
 ---
 
-## Dataset Description
-
-The dataset includes the following columns:
-
-| Column | Description |
-|------|-------------|
-| Date | Date of the transaction |
-| Product | Name of the product |
-| Quantity | Number of items sold |
-| Price | Price per item |
-| Customer_ID | Unique identifier for customers |
-| Region | Sales region |
-| Total_Sales | Total sales value |
+## Project Structure
+sales-analysis-project
+│
+├── README.md
+├── requirements.txt
+├── main.py / analysis.ipynb
+│
+├── data
+│   └── sales_data.csv
+│
+├── visualizations
+│   ├── sales_trend.png
+│   ├── product_sales.png
+│   └── regional_sales.png
+│
+└── report
+    └── project_report.md
 
 ---
 
