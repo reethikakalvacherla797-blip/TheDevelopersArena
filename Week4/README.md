@@ -16,36 +16,6 @@ The project uses Python libraries such as **pandas** for data processing and **m
 
 ---
 
-## Project Structure
-sales-analysis-project
-│
-├── README.md
-
-├── requirements.txt
-
-├── main.py / analysis.ipynb
-
-│
-├── data
-
-│   └── sales_data.csv
-
-│
-├── visualizations
-
-│   ├── sales_trend.png
-
-│   ├── product_sales.png
-
-│   └── regional_sales.png
-
-│
-└── report
-
-    └── project_report.md
-
----
-
 ## Visualizations
 
 The project includes the following visualizations:
@@ -84,5 +54,15 @@ Basic tests were performed to ensure correct analysis:
 - Checked column data types
 - Validated grouped sales calculations
 - Confirmed correct chart generation
+
+---
+
+# Key Insights
+
+Some products generate significantly higher sales than others.
+
+Sales patterns vary across different regions.
+
+Monthly trends help identify peak sales periods.
 
 
