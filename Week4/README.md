@@ -20,18 +20,28 @@ The project uses Python libraries such as **pandas** for data processing and **m
 sales-analysis-project
 │
 ├── README.md
+
 ├── requirements.txt
+
 ├── main.py / analysis.ipynb
+
 │
 ├── data
+
 │   └── sales_data.csv
+
 │
 ├── visualizations
+
 │   ├── sales_trend.png
+
 │   ├── product_sales.png
+
 │   └── regional_sales.png
+
 │
 └── report
+
     └── project_report.md
 
 ---
