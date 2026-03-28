@@ -1,0 +1,75 @@
+
+HYPOTHESIS TEST RESULTS
+
+
+Dataset: sales_data.csv
+Confidence Level: 95% (α = 0.05)
+
+
+1. ONE-SAMPLE T-TEST
+
+Objective:
+To determine whether the average sales differ significantly from the benchmark value (200,000).
+
+Null Hypothesis (H0):
+Mean Sales = 200,000
+
+Alternative Hypothesis (H1):
+Mean Sales ≠ 200,000
+
+Result:
+p-value = 1.529271713575926e-11
+
+Conclusion:
+Since p-value < 0.05, we reject the null hypothesis.
+
+Interpretation:
+There is strong statistical evidence that the average sales are significantly different from 200,000.
+
+2. TWO-SAMPLE T-TEST (REGION COMPARISON)
+
+Objective:
+To compare average sales between two regions.
+
+Null Hypothesis (H0):
+Mean Sales (Region A) = Mean Sales (Region B)
+
+Alternative Hypothesis (H1):
+Mean Sales (Region A) ≠ Mean Sales (Region B)
+
+Result:
+p-value = 0.7226811638407535
+
+Conclusion:
+Since p-value > 0.05, we fail to reject the null hypothesis.
+
+Interpretation:
+There is no statistically significant difference in average sales between the two regions.
+
+3. ONE-WAY ANOVA (MULTIPLE REGIONS)
+
+Objective:
+To determine whether there are significant differences in sales across multiple regions.
+
+Null Hypothesis (H0):
+All group means are equal
+
+Alternative Hypothesis (H1):
+At least one group mean is different
+
+Result:
+p-value = 0.09723678084979993
+
+Conclusion:
+Since p-value > 0.05, we fail to reject the null hypothesis.
+
+Interpretation:
+There is no strong statistical evidence of significant differences in sales across regions.
+
+OVERALL INTERPRETATION
+
+- The average sales are significantly different from the benchmark value.
+- Regional differences in sales are not statistically significant.
+- Sales performance appears consistent across regions.
+- Statistical testing confirms that observed variations are likely due to random variation rather than systematic differences.
+
